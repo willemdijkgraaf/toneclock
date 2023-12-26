@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<!-- <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> -->
+
+		<title>Tone Clock</title>
+		<meta name="description" content="Tone Clock sheet generator">
+		<meta name="author" content="Wim Dijkgraaf">
+
+		<!-- Bootstrap -->
+    		<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet">
+		<!-- Optional theme -->
+		<!-- <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css"> -->
+		<link rel="stylesheet" href="./flat-ui/css/flat-ui.css">
+        <link rel="stylesheet" href="./css/toneclock.css">
+
+        <!-- Extend bootstrap with a slider control -->
+		<!-- <link rel="stylesheet" href="slider/css/slider.css"> -->
+		<!-- <link rel="stylesheet/less" type="text/css" href="slider/css/slider.less"> -->
+	
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+
+        <!--
+      	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      	<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        -->
+
+        <script data-main="main.js" src="./js/require.js"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-2794329-14', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+
+</script>
+	</head>
+
+	<body>
+		<div>
+			<header>
+			</header>
+			<nav class="navbar navbar-default" role="navigation">
+				<div class="container-fluid">
+				    	<!-- Brand and toggle get grouped for better mobile display -->
+				    <div class="navbar-header">			
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarToneClock" id="buttonToneClockMenu">Tone Clock<span class="caret"></span>
+	  					</button>
+					</div>
+						
+					<!-- Collect the nav links, forms, and other content for toggling -->
+				    <div class="collapse navbar-collapse" id="navbarToneClock">
+				      	<ul class="nav navbar-nav">
+					        <li class="dropdown">
+					          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tone Clock<b class="caret"></b></a>
+						
+								<ul class="dropdown-menu" role="menu" aria-labelledby="buttonToneClockMenu">
+				                   	<li role="presentation"><a id="menuAbout" role="menuitem" tabindex="-1" href="#">About Tone Clock</a></li>
+									<li role="presentation" class="divider"></li>
+                                    <li role="presentation"><a id="menuOpen" role="menuitem" tabindex="-1" href="#">Open file ...</a></li>
+                                    <li role="presentation"><a id="menuSave" role="menuitem" tabindex="-1" href="#">Save</a></li>
+
+                                    <li role="presentation" class="divider"></li>
+					                	<li role="presentation"><a id="menuPreferences" role="menuitem" tabindex="-1" href="#">Preferences</a></li>
+					                	<li role="presentation"><a id="menuPrint" role="menuitem" tabindex="-1" href="#">Print</a></li>
+						        </ul>
+							</li>
+							
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Sheets<b class="caret"></b></a>
+								<ul id="menuToneClockSheets" class="dropdown-menu" role="menu" aria-labelledby="buttonToneClockSheets">
+				                   	<li role="presentation"><a id="menuSheetEmptyA44x5" role="menuitem" tabindex="-1" href="#">Emty A4 4x5 clocks</a></li>
+				                   	<li role="presentation"><a id="menu4BasicTriads" role="menuitem" tabindex="-1" href="#">4 Basic triads</a></li>
+				                   	<li role="presentation"><a id="menu5Basic7thChords" role="menuitem" tabindex="-1" href="#">5 Basic seventh chords</a></li>
+				                   	<li role="presentation"><a id="menuMajorTriadsOverMinorHarmony" role="menuitem" tabindex="-1" href="#">Major triads over minor harmony</a></li>
+				                   	<li role="presentation"><a id="menuMajorModes" role="menuitem" tabindex="-1" href="#">Modes of the major scale</a></li>
+				                   	<li role="presentation"><a id="menuMelodicMinorModes" role="menuitem" tabindex="-1" href="#">Modes of the melodic minor scale</a></li>
+				                   	<li role="presentation"><a id="menuPeterSchat" role="menuitem" tabindex="-1" href="#">Peter Schat's Tone Clock</a></li>
+				                   	<li role="presentation"><a id="menuSheetMessiaen" role="menuitem" tabindex="-1" href="#">Messiaen Modes</a></li>
+				                   	<li role="presentation"><a id="menuSheetV7" role="menuitem" tabindex="-1" href="#">V7 - x perspectives</a></li>
+				                   	<li role="presentation"><a id="menuDiminishedScale" role="menuitem" tabindex="-1" href="#">Diminished scale perspectives</a></li>
+				                   	<li role="presentation"><a id="menuSheetIntervals" role="menuitem" tabindex="-1" href="#">Intervals</a></li>
+					                	<li role="presentation"><a id="menuSheetTrichords" role="menuitem" tabindex="-1" href="#">Trichords</a></li>
+					                	<li role="presentation"><a id="menuSheetTetrachords" role="menuitem" tabindex="-1" href="#">Tetrachords</a></li>
+					                	<li role="presentation"><a id="menuSheetPentachords" role="menuitem" tabindex="-1" href="#">Pentachords</a></li>
+					                	<li role="presentation"><a id="menuSheetHexachords" role="menuitem" tabindex="-1" href="#">Hexachords</a></li>
+					                	<li role="presentation"><a id="menuSheetHeptachords" role="menuitem" tabindex="-1" href="#">Heptachords</a></li>
+					                	<li role="presentation"><a id="menuSheetOctachords" role="menuitem" tabindex="-1" href="#">Octachords</a></li>
+						        	</ul>
+							</li>
+							
+						</ul>
+					</div>
+				</div>
+			</nav>
+			
+			<div id="preferencesPopup" class="modal fade">
+				<div  class="modal-dialog">
+					<div class="modal-content" style="opacity:0.75;'">
+					
+			      		<div class="modal-header">
+			        			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+			        			<h1 class="modal-title">Tone Clock Preferences</h1>
+			      		</div>
+						
+						<div class="modal-body">
+							
+							<ul class="nav nav-tabs">
+							  	<li id="tabNotes" class="active"><a href="#tabPaneNotes" data-toggle="tab"><span>Notes</span></a>	
+							  	</li>
+                                <li id="tabSets"><a href="#tabPaneSets" data-toggle="tab"><span>Sets</span></a>
+                                </li>
+                                <li id="tabSizes"><a href="#tabPaneSizes" data-toggle="tab"><span>Sizes</span></a>
+							  	</li>				    			  	
+							  	<li id="tabCanvas"><a href="#tabPaneCanvas" data-toggle="tab"><span>Sheet</span></a>
+							  	</li>
+							</ul>
+								  
+							<div class="tab-content">
+								<div class="tab-pane active" id="tabPaneNotes">
+									<div class="input-group">
+                                        Rotation:
+                                        <div class="ui-slider" id="sliderNoteNameRotation" data-toggle="tooltip" data-placement="top" title="" data-original-title="" style="width: 200px"></div>
+                                        Transposition:
+                                        <div class="ui-slider" id="sliderSheetTransposition" data-toggle="tooltip" data-placement="top" title="" data-original-title="" style="width: 200px"></div>
+				  					</div>
+				  				</div>
+
+                                <div class="tab-pane" id="tabPaneSets">
+                                    <div class="input-group">
+                                        <div id="chkboxDisplaySetNames">Display set names:
+                                            <label class="checkbox"><input type="checkbox" id="chkPrimeForm" name="chkDisplayPrimeForm" data-toggle="checkbox" >Prime Form</label>
+                                            <label class="checkbox"><input type="checkbox" id="chkForteCode" name="chkDisplayForteCode" data-toggle="checkbox" >Forte Code</label>
+                                            <label class="checkbox"><input type="checkbox" id="chkIntervalVector" name="chkDisplayIntervalVector" data-toggle="checkbox" >Interval Vector</label>
+                                            <label class="checkbox"><input type="checkbox" id="chkPrimeInversion" name="chkDisplayPrimeInversion" data-toggle="checkbox" >Prime Inversion</label>
+                                        </div>
+                                    </div>
+                                </div>
+				     		
+				     			<div class="tab-pane" id="tabPaneSizes">
+                                    <p>Clock margin:</p>
+                                    <div class="ui-slider" id="sliderSizeClockCanvas" data-toggle="tooltip" data-placement="top" title="" data-original-title="" style="width: 200px"></div>
+                                    <p>Note name margin:</p>
+                                    <div class="ui-slider" id="sliderNoteNameMargin" data-toggle="tooltip" data-placement="top" title="" data-original-title="" style="width: 200px"></div>
+									<p>Hour size:</p>   
+									<div class="ui-slider" id="sliderSizeHour" data-toggle="tooltip" data-placement="top" title="" data-original-title="" style="width: 200px"></div>
+									<p>Font size:</p>   
+									<div class="ui-slider" id="sliderSizeFont" data-toggle="tooltip" data-placement="top" title="" data-original-title="" style="width: 200px"></div>
+								</div>
+							
+							
+								<div class="tab-pane" id="tabPaneCanvas">
+						    			<p># Clocks horizontal:</p> 
+						    			<div class="ui-slider" id="sliderClocksHorizontal" data-toggle="tooltip" data-placement="top" title="" data-original-title="" style="width: 200px"></div>
+									<p># Clocks vertical:</p>   
+									<div class="ui-slider" id="sliderClocksVertical" data-toggle="tooltip" data-placement="top" title="" data-original-title="" style="width: 200px"></div>
+									
+						    		</div>
+				    			</div>
+						</div><!-- /.modal-body -->
+				
+						<div class="modal-footer">
+					        <button type="button" class="btn btn-default" data-dismiss="modal">OK</button>
+					    </div>
+			    </div><!-- /.modal-content -->
+			  </div><!-- /.modal-dialog -->
+			</div><!-- /.modal -->	
+
+			<div id="aboutPopup" class="modal fade">
+				<div class="modal-dialog">
+					<div class="modal-content">
+			      		<div class="modal-header">
+			        			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+			        			<h1 class="modal-title">About Tone Clock</h1>
+			      		</div>
+						
+						<div class="modal-body">					
+							<p>Version: <data id="toneClockVersion" ></data></p>
+							<p>The aim of this application is to give the contemporary composer/improviser a simple tool to print tone clock sheets.</p>
+							<p>A printed tone clock sheet can be used to manually draw harmonies and melodies (tone rows).</p>
+							<p>Feel free to experiment with the preferences in order to create a sheet that suites your needs and requirements.</p>	
+							<p>Kind regards, Wim Dijkgraaf</p>
+						</div><!-- /.modal-body -->
+				
+						<div class="modal-footer">
+					        <button type="button" class="btn btn-default" data-dismiss="modal">OK</button>
+					    </div>
+			    		</div><!-- /.modal-content -->
+			 	</div><!-- /.modal-dialog -->
+			</div><!-- /.modal -->	
+
+            <!--- HOUR DropDown Menu -->
+                <ul id="hourContextMenu" class="dropdown-menu" role="menu" style="display:none" >
+                    <li><a id="toggleRoot" tabindex="-1" href="#">Toggle root</a></li>
+                    <li class="divider"></li>
+                    <div class="input-group">
+
+                        <div class="toneclockContextMenuItem" id="contextRadioToneLayout"><strong>Interval:</strong>
+                            <label class="radio"><input type="radio" id="contextRadioFourths" name="contextRadioToneLayout" data-toggle="radio" checked="checked">4ths</label>
+                            <!-- <label class="radio"><input type="radio" id="radioFifths" name="radioToneLayout" data-toggle="radio" >5ths</label> -->
+                            <label class="radio"><input type="radio" id="contextRadioSeconds" name="contextRadioToneLayout" data-toggle="radio">2nds</label>
+                        </div>
+
+                    </div>
+                    <li class="divider"></li>
+                    <div class="input-group">
+                        <div class="toneclockContextMenuItem" id="contextRadioToneDirection"><strong>Layout:</strong>
+                            <label class="radio"><input type="radio" id="contextRadioClockwise" name="contextRadioToneDirection" data-toggle="radio" checked="checked">clockwise</label>
+                            <label class="radio"><input type="radio" id="contextRadioAntiClockwise" name="contextRadioToneDirection" data-toggle="radio">anti-clockwise</label>
+                        </div>
+
+                    </div>
+                    <li class="divider"></li>
+                    <div class="input-group">
+                        <div class="toneclockContextMenuItem" id="contextRadioNamingSystem"><strong>Naming system:</strong>
+                            <label class="radio"><input type="radio" id="contextRadioAlphabet" name="contextRadioNamingSystem" data-toggle="radio" checked="checked">alphabet</label>
+                            <label class="radio"><input type="radio" id="contextRadioDoReMi" name="contextRadioNamingSystem" data-toggle="radio">do re mi</label>
+                            <label class="radio"><input type="radio" id="contextRadioPitchClass" name="contextRadioNamingSystem" data-toggle="radio">pitch classes</label>
+                            <label class="radio"><input type="radio" id="contextRadioHarmonicaClass" name="contextRadioNamingSystem" data-toggle="radio">chromatic harmonica (standard layout)</label>
+                            <label class="radio"><input type="radio" id="contextRadioHarmonicaDimi" name="contextRadioNamingSystem" data-toggle="radio">chromatic harmonica (dimi layout)</label>
+
+                        </div>
+                    </div>
+                    <li class="divider"></li>
+                    <div class="input-group">
+                        <div class="toneclockContextMenuItem" id="contextRadioToneFlatSharp"><strong>Accidentals:</strong>
+                            <label class="radio"><input type="radio" id="contextRadioFlat" name="contextRadioFlatSharp" data-toggle="radio" checked="checked">b</label>
+                            <label class="radio"><input type="radio" id="contextRadioSharp" name="contextRadioFlatSharp" data-toggle="radio">#</label>
+                        </div>
+                    </div>
+                </ul>
+            <!--- END HOUR DropDown Menu -->
+
+			<div id="toneClockArea"></div>
+
+
+
+            <!--
+			<footer>
+				<p>
+					&copy; Copyright  by Wim Dijkgraaf
+				</p>
+			</footer>
+			-->
+		</div>
+
+        <input type="file" id="loadFile" name="file" style="display:none" />
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <!--    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+
+         <!-- Include all compiled plugins (below), or include individual files as needed -->
+	   	<!-- Extend bootstrap with a slider control -->
+
+        <!--
+                    <script src="./flat-ui/js/jquery.tagsinput.js"></script>
+                    <script src="./flat-ui/js/jquery.placeholder.js"></script>
+                    <script src="./flat-ui/js/jquery-ui-1.10.3.custom.min.js"></script>
+                    <script src="./flat-ui/js/jquery.ui.touch-punch.min.js"></script>
+                    <script src="./flat-ui/js/bootstrap-select.js"></script>
+                    <script src="./flat-ui/js/bootstrap-switch.js"></script>
+                    <script src="./flat-ui/js/flatui-checkbox.js"></script>
+                    <script src="./flat-ui/js/flatui-radio.js"></script>
+
+                <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+
+        -->
+
+            </body>
+        </html>

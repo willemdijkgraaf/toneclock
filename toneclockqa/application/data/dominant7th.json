@@ -1,0 +1,49 @@
+{
+    "id": 1,
+    "name": "Perspectives on Dominant 7ths - WORK IN PROGRESS",
+    "clockcanvassize": 240,
+    "clocksize": 130,
+    "hoursize": 10,
+    "clockshorizontal": 4,
+    "clocksvertical": 17,
+    "noteNameInterval": 0,
+    "noteNameAs": 0,
+    "noteNameDirection": true,
+    "noteNameAccidentals": true,
+    "noteNameMargin": 10,
+    "noteNameFontSize": 12,
+    "noteNameFontName": "Arial",
+    "noteNameRotation": -1,
+    "sheetTransposition": 0,
+    "displaySetNamePrimeForm": false,
+    "displaySetNameForteCode": false,
+    "displaySetNameIntervalVector": false,
+    "displaySetNamePrimeInversion": false,
+    "toneclocks": [
+    {
+      "id": 0,
+      "displayRoot": true,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#a0a0a0",
+          "fill": true,
+          "midiNotes": [
+            2,
+            7,
+            0,
+            5,
+            10,
+            3,
+            8,
+            1,
+            6,
+            4,
+            9
+          ]
+        }
+      ]
+    }
+  ]
+}

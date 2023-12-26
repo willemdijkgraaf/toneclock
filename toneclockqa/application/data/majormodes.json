@@ -1,0 +1,178 @@
+{
+    "id": 1,
+    "name": "Modes of the major scale",
+    "clockcanvassize": 240,
+    "clocksize": 130,
+    "hoursize": 10,
+    "clockshorizontal": 4,
+    "clocksvertical": 2,
+    "noteNameInterval": 0,
+    "noteNameAs": 0,
+    "noteNameDirection": true,
+    "noteNameAccidentals": true,
+    "noteNameMargin": 10,
+    "noteNameFontSize": 12,
+    "noteNameFontName": "Arial",
+    "noteNameRotation": -1,
+    "sheetTransposition": 0,
+    "displaySetNamePrimeForm": false,
+    "displaySetNameForteCode": false,
+    "displaySetNameIntervalVector": false,
+    "displaySetNamePrimeInversion": false,
+  "toneclocks": [
+    {
+      "id": 0,
+      "name": "ionian",
+      "displayRoot": true,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#a0a0a0",
+          "fill": true,
+          "midiNotes": [
+            2,
+            7,
+            0,
+            5,
+            11,
+            4,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "name": "dorian",
+      "id": 1,
+      "displayRoot": true,
+      "rootNoteNumber": 2,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#a0a0a0",
+          "fill": true,
+          "midiNotes": [
+            2,
+            7,
+            0,
+            5,
+            11,
+            4,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "phrygian",
+      "displayRoot": true,
+      "rootNoteNumber": 4,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#a0a0a0",
+          "fill": true,
+          "midiNotes": [
+            2,
+            7,
+            0,
+            5,
+            11,
+            4,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "lydian",
+      "displayRoot": true,
+      "rootNoteNumber": 5,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#a0a0a0",
+          "fill": true,
+          "midiNotes": [
+            2,
+            7,
+            0,
+            5,
+            11,
+            4,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "mixolydian",
+      "displayRoot": true,
+      "rootNoteNumber": 7,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#a0a0a0",
+          "fill": true,
+          "midiNotes": [
+            2,
+            7,
+            0,
+            5,
+            11,
+            4,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "aeolian",
+      "displayRoot": true,
+      "rootNoteNumber": 9,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#a0a0a0",
+          "fill": true,
+          "midiNotes": [
+            2,
+            7,
+            0,
+            5,
+            11,
+            4,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "locrian",
+      "displayRoot": true,
+      "rootNoteNumber": 11,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#a0a0a0",
+          "fill": true,
+          "midiNotes": [
+            2,
+            7,
+            0,
+            5,
+            11,
+            4,
+            9
+          ]
+        }
+      ]
+    }
+  ]
+}

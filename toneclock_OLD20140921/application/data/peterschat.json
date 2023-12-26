@@ -1,0 +1,589 @@
+{
+  "toneclocksheet": {
+    "id": 1,
+    "name": "Peter Schat's Tone Clock",
+    "clockcanvassize": 240,
+    "clocksize": 130,
+    "hoursize": 10,
+    "clockshorizontal": 4,
+    "clocksvertical": 3,
+    "notenamestyle": 0,
+    "notenamedirection": true,
+    "notenameaccidentals": true,
+    "notenamemargin": 10,
+    "notenamefontsize": 12,
+    "notenamefontname": "Arial",
+    "notenamerotation": -1
+  },
+  "toneclocks": [
+    {
+      "id": 0,
+      "name": "hour 1",
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#69A6FB",
+          "fill": true,
+          "midiNotes": [
+            7,
+            0,
+            5
+          ]
+        },
+        {
+          "id": 1,
+          "color": "#6A87A8",
+          "fill": true,
+          "midiNotes": [
+            10,
+            3,
+            8
+          ]
+        },
+        {
+          "id": 2,
+          "color": "#9F69FB",
+          "fill": true,
+          "midiNotes": [
+            1,
+            6,
+            11
+          ]
+        },
+        {
+          "id": 3,
+          "color": "#FB6973",
+          "fill": true,
+          "midiNotes": [
+            4,
+            9,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "hour 2",
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#69A6FB",
+          "fill": true,
+          "midiNotes": [
+            7,
+            0,
+            10
+          ]
+        },
+        {
+          "id": 1,
+          "color": "#6A87A8",
+          "fill": true,
+          "midiNotes": [
+            5,
+            3,
+            8
+          ]
+        },
+        {
+          "id": 2,
+          "color": "#9F69FB",
+          "fill": true,
+          "midiNotes": [
+            1,
+            6,
+            4
+          ]
+        },
+        {
+          "id": 3,
+          "color": "#FB6973",
+          "fill": true,
+          "midiNotes": [
+            11,
+            9,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "hour 3",
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#69A6FB",
+          "fill": true,
+          "midiNotes": [
+            7,
+            0,
+            3
+          ]
+        },
+        {
+          "id": 1,
+          "color": "#6A87A8",
+          "fill": true,
+          "midiNotes": [
+            5,
+            10,
+            1
+          ]
+        },
+        {
+          "id": 2,
+          "color": "#9F69FB",
+          "fill": true,
+          "midiNotes": [
+            8,
+            11,
+            4
+          ]
+        },
+        {
+          "id": 3,
+          "color": "#FB6973",
+          "fill": true,
+          "midiNotes": [
+            6,
+            9,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "hour 4",
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#69A6FB",
+          "fill": true,
+          "midiNotes": [
+            7,
+            0,
+            8
+          ]
+        },
+        {
+          "id": 1,
+          "color": "#6A87A8",
+          "fill": true,
+          "midiNotes": [
+            5,
+            10,
+            6
+          ]
+        },
+        {
+          "id": 2,
+          "color": "#9F69FB",
+          "fill": true,
+          "midiNotes": [
+            4,
+            11,
+            8
+          ]
+        },
+        {
+          "id": 3,
+          "color": "#FB6973",
+          "fill": true,
+          "midiNotes": [
+            9,
+            2,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "hour 5",
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#69A6FB",
+          "fill": true,
+          "midiNotes": [
+            7,
+            0,
+            1
+          ]
+        },
+        {
+          "id": 1,
+          "color": "#6A87A8",
+          "fill": true,
+          "midiNotes": [
+            10,
+            3,
+            4
+          ]
+        },
+        {
+          "id": 2,
+          "color": "#9F69FB",
+          "fill": true,
+          "midiNotes": [
+            11,
+            6,
+            5
+          ]
+        },
+        {
+          "id": 3,
+          "color": "#FB6973",
+          "fill": true,
+          "midiNotes": [
+            9,
+            2,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "hour 6",
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#69A6FB",
+          "fill": true,
+          "midiNotes": [
+            7,
+            5,
+            3
+          ]
+        },
+        {
+          "id": 1,
+          "color": "#6A87A8",
+          "fill": true,
+          "midiNotes": [
+            10,
+            8,
+            6
+          ]
+        },
+        {
+          "id": 2,
+          "color": "#9F69FB",
+          "fill": true,
+          "midiNotes": [
+            9,
+            1,
+            11
+          ]
+        },
+        {
+          "id": 3,
+          "color": "#FB6973",
+          "fill": true,
+          "midiNotes": [
+            2,
+            0,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "hour 7",
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#69A6FB",
+          "fill": true,
+          "midiNotes": [
+            0,
+            10,
+            9
+          ]
+        },
+        {
+          "id": 1,
+          "color": "#6A87A8",
+          "fill": true,
+          "midiNotes": [
+            1,
+            11,
+            2
+          ]
+        },
+        {
+          "id": 2,
+          "color": "#9F69FB",
+          "fill": true,
+          "midiNotes": [
+            7,
+            5,
+            8
+          ]
+        },
+        {
+          "id": 3,
+          "color": "#FB6973",
+          "fill": true,
+          "midiNotes": [
+            4,
+            6,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "hour 8",
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#69A6FB",
+          "fill": true,
+          "midiNotes": [
+            7,
+            5,
+            1
+          ]
+        },
+        {
+          "id": 1,
+          "color": "#6A87A8",
+          "fill": true,
+          "midiNotes": [
+            0,
+            10,
+            6
+          ]
+        },
+        {
+          "id": 2,
+          "color": "#9F69FB",
+          "fill": true,
+          "midiNotes": [
+            2,
+            8,
+            4
+          ]
+        },
+        {
+          "id": 3,
+          "color": "#FB6973",
+          "fill": true,
+          "midiNotes": [
+            9,
+            11,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "hour 9",
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#69A6FB",
+          "fill": true,
+          "midiNotes": [
+            7,
+            5,
+            6
+          ]
+        },
+        {
+          "id": 1,
+          "color": "#6A87A8",
+          "fill": true,
+          "midiNotes": [
+            2,
+            4,
+            3
+          ]
+        },
+        {
+          "id": 2,
+          "color": "#9F69FB",
+          "fill": true,
+          "midiNotes": [
+            8,
+            10,
+            9
+          ]
+        },
+        {
+          "id": 3,
+          "color": "#FB6973",
+          "fill": true,
+          "midiNotes": [
+            11,
+            1,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "hour 10",
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#69A6FB",
+          "fill": true,
+          "midiNotes": [
+            2,
+            5,
+            8,
+            11
+          ]
+        },
+        {
+          "id": 1,
+          "color": "#6A87A8",
+          "fill": true,
+          "midiNotes": [
+            7,
+            10,
+            1,
+            4
+          ]
+        },
+        {
+          "id": 2,
+          "color": "#9F69FB",
+          "fill": true,
+          "midiNotes": [
+            0,
+            3,
+            6,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "hour 11",
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#69A6FB",
+          "fill": true,
+          "midiNotes": [
+            7,
+            10,
+            6
+          ]
+        },
+        {
+          "id": 1,
+          "color": "#6A87A8",
+          "fill": true,
+          "midiNotes": [
+            0,
+            1,
+            9
+          ]
+        },
+        {
+          "id": 2,
+          "color": "#9F69FB",
+          "fill": true,
+          "midiNotes": [
+            8,
+            5,
+            4
+          ]
+        },
+        {
+          "id": 2,
+          "color": "#FB6973",
+          "fill": true,
+          "midiNotes": [
+            2,
+            3,
+            11
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "hour 12",
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#69A6FB",
+          "fill": true,
+          "midiNotes": [
+            7,
+            3,
+            11
+          ]
+        },
+        {
+          "id": 1,
+          "color": "#6A87A8",
+          "fill": true,
+          "midiNotes": [
+            0,
+            8,
+            4
+          ]
+        },
+        {
+          "id": 2,
+          "color": "#9F69FB",
+          "fill": true,
+          "midiNotes": [
+            5,
+            1,
+            9
+          ]
+        },
+        {
+          "id": 2,
+          "color": "#FB6973",
+          "fill": true,
+          "midiNotes": [
+            2,
+            10,
+            6
+          ]
+        }
+      ]
+    }
+  ]
+}

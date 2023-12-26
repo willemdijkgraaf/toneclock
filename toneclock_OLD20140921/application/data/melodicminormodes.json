@@ -1,0 +1,174 @@
+{
+  "toneclocksheet": {
+    "id": 1,
+    "name": "Modes of the melodic minor scale",
+    "clockcanvassize": 240,
+    "clocksize": 130,
+    "hoursize": 10,
+    "clockshorizontal": 4,
+    "clocksvertical": 2,
+    "notenamestyle": 0,
+    "notenamedirection": true,
+    "notenameaccidentals": true,
+    "notenamemargin": 10,
+    "notenamefontsize": 12,
+    "notenamefontname": "Arial",
+    "notenamerotation": -1
+  },
+  "toneclocks": [
+    {
+      "id": 0,
+      "name": "minor-major",
+      "displayRoot": true,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#a0a0a0",
+          "fill": true,
+          "midiNotes": [
+            2,
+            7,
+            0,
+            5,
+            11,
+            3,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "name": "dorian b9",
+      "id": 1,
+      "displayRoot": true,
+      "rootNoteNumber": 2,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#a0a0a0",
+          "fill": true,
+          "midiNotes": [
+            2,
+            7,
+            0,
+            5,
+            11,
+            3,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "lydian augmented",
+      "displayRoot": true,
+      "rootNoteNumber": 3,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#a0a0a0",
+          "fill": true,
+          "midiNotes": [
+            2,
+            7,
+            0,
+            5,
+            11,
+            3,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "lydian dominant",
+      "displayRoot": true,
+      "rootNoteNumber": 5,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#a0a0a0",
+          "fill": true,
+          "midiNotes": [
+            2,
+            7,
+            0,
+            5,
+            11,
+            3,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "mixolydian b6",
+      "displayRoot": true,
+      "rootNoteNumber": 7,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#a0a0a0",
+          "fill": true,
+          "midiNotes": [
+            2,
+            7,
+            0,
+            5,
+            11,
+            3,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "locrian #2",
+      "displayRoot": true,
+      "rootNoteNumber": 9,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#a0a0a0",
+          "fill": true,
+          "midiNotes": [
+            2,
+            7,
+            0,
+            5,
+            11,
+            3,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "altered/diminished whole-tone",
+      "displayRoot": true,
+      "rootNoteNumber": 11,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#a0a0a0",
+          "fill": true,
+          "midiNotes": [
+            2,
+            7,
+            0,
+            5,
+            11,
+            3,
+            9
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+    "id": 1,
+    "name": "4 basic triads",
+    "clockcanvassize": 240,
+    "clocksize": 130,
+    "hoursize": 10,
+    "clockshorizontal": 4,
+    "clocksvertical": 1,
+    "noteNameInterval": 0,
+    "noteNameAs": 0,
+    "noteNameDirection": true,
+    "noteNameAccidentals": true,
+    "noteNameMargin": 10,
+    "noteNameFontSize": 12,
+    "noteNameFontName": "Arial",
+    "noteNameRotation": -1,
+    "sheetTransposition": 0,
+    "displaySetNamePrimeForm": false,
+    "displaySetNameForteCode": false,
+    "displaySetNameIntervalVector": false,
+    "displaySetNamePrimeInversion": false,
+    "toneclocks": [
+    {
+      "id": 0,
+      "name": "major triad",
+      "displayRoot": true,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#FB6973",
+          "fill": true,
+          "midiNotes": [
+            7,
+            0,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "augmented triad",
+      "displayRoot": true,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#FB6973",
+          "fill": true,
+          "midiNotes": [
+            0,
+            4,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "minor triad",
+      "displayRoot": true,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#FB6973",
+          "fill": true,
+          "midiNotes": [
+            7,
+            0,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "diminished triad",
+      "displayRoot": true,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#FB6973",
+          "fill": true,
+          "midiNotes": [
+            0,
+            3,
+            6
+          ]
+        }
+      ]
+    }
+  ]
+}

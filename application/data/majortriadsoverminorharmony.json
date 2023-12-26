@@ -1,0 +1,120 @@
+{
+    "id": 1,
+    "name": "Major triads over minor harmony",
+    "clockcanvassize": 240,
+    "clocksize": 160,
+    "hoursize": 20,
+    "clockshorizontal": 3,
+    "clocksvertical": 1,
+    "noteNameInterval": 0,
+    "noteNameAs": 0,
+    "noteNameDirection": true,
+    "noteNameAccidentals": true,
+    "noteNameMargin": 10,
+    "noteNameFontSize": 11,
+    "noteNameFontName": "Arial",
+    "noteNameRotation": -1,
+    "sheetTransposition": 0,
+    "displaySetNamePrimeForm": false,
+    "displaySetNameForteCode": false,
+    "displaySetNameIntervalVector": false,
+    "displaySetNamePrimeInversion": false,
+  "toneclocks": [
+    {
+      "id": 0,
+      "name": "first choice",
+      "displayRoot": true,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#a0a0a0",
+          "fill": true,
+          "midiNotes": [
+            9,
+            2,
+            7,
+            0,
+            5,
+            10,
+            3
+          ]
+        },
+        {
+          "id": 1,
+          "color": "#FB6973",
+          "fill": true,
+          "midiNotes": [
+            7,
+            10,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "second choice",
+      "displayRoot": true,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#a0a0a0",
+          "fill": true,
+          "midiNotes": [
+            9,
+            2,
+            7,
+            0,
+            5,
+            10,
+            3
+          ]
+        },
+        {
+          "id": 1,
+          "color": "#FB6973",
+          "fill": true,
+          "midiNotes": [
+            0,
+            5,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "third choice",
+      "displayRoot": true,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#a0a0a0",
+          "fill": true,
+          "midiNotes": [
+            9,
+            2,
+            7,
+            0,
+            5,
+            10,
+            3
+          ]
+        },
+        {
+          "id": 1,
+          "color": "#FB6973",
+          "fill": true,
+          "midiNotes": [
+            5,
+            10,
+            2
+          ]
+        }
+      ]
+    }
+  ]
+}

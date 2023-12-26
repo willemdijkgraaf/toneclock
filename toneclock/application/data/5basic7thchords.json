@@ -1,0 +1,115 @@
+{
+  "toneclocksheet": {
+    "id": 1,
+    "name": "5 basic seventh chords",
+    "clockcanvassize": 240,
+    "clocksize": 130,
+    "hoursize": 10,
+    "clockshorizontal": 5,
+    "clocksvertical": 1,
+    "notenamestyle": 0,
+    "notenamedirection": true,
+    "notenameaccidentals": true,
+    "notenamemargin": 10,
+    "notenamefontsize": 12,
+    "notenamefontname": "Arial",
+    "notenamerotation": -1
+  },
+  "toneclocks": [
+    {
+      "id": 0,
+      "name": "major seventh chord",
+      "displayRoot": true,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#FB6973",
+          "fill": true,
+          "midiNotes": [
+            7,
+            0,
+            11,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "dominant seventh chord",
+      "displayRoot": true,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#FB6973",
+          "fill": true,
+          "midiNotes": [
+            7,
+            0,
+            10,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "minor seventh chord",
+      "displayRoot": true,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#FB6973",
+          "fill": true,
+          "midiNotes": [
+            7,
+            0,
+            10,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "half diminished 7th chord",
+      "displayRoot": true,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#FB6973",
+          "fill": true,
+          "midiNotes": [
+            0,
+            10,
+            3,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "diminished 7th chord",
+      "displayRoot": true,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#FB6973",
+          "fill": true,
+          "midiNotes": [
+            0,
+            3,
+            6,
+            9
+          ]
+        }
+      ]
+    }
+  ]
+}

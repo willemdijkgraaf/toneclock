@@ -1,0 +1,39 @@
+body { padding-top: 125px; }
+
+input { width: 100px; }
+
+.tooltip-inner { width:50px; }
+
+.foregroundCanvas
+{
+    position:absolute;
+    left:0;
+}
+
+.dropdown-menu .contextMenuShow
+{
+    position: absolute;
+    z-index: 1000;
+    display: block;
+    list-style: none;
+    visibility: visible;
+    opacity: 1
+}
+
+.dropdown-menu .contextMenuHide {
+    opacity:0;
+    visibility:hidden;
+    z-index:0;
+}
+
+.modal-title {
+    font-size: medium;
+}
+
+.toneclockContextMenuItem {
+    margin-left: 18px;
+}
+
+.toneclockLabel {
+    width: 120px;
+}

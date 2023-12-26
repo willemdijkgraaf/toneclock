@@ -1,0 +1,1420 @@
+{
+    "id": 1,
+    "name": "Heptachords",
+    "clockcanvassize": 240,
+    "clocksize": 160,
+    "hoursize": 20,
+    "clockshorizontal": 4,
+    "clocksvertical": 17,
+    "noteNameInterval": 0,
+    "noteNameAs": 0,
+    "noteNameDirection": true,
+    "noteNameAccidentals": true,
+    "noteNameMargin": 10,
+    "noteNameFontSize": 11,
+    "noteNameFontName": "Arial",
+    "noteNameRotation": -1,
+    "sheetTransposition": 0,
+    "displaySetNamePrimeForm": false,
+    "displaySetNameForteCode": false,
+    "displaySetNameIntervalVector": false,
+    "displaySetNamePrimeInversion": false,
+    "toneclocks": [
+    {
+      "id": 0,
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#000000",
+          "fill": true,
+          "midiNotes": [
+            2,
+            7,
+            0,
+            5,
+            11,
+            4,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#000000",
+          "fill": true,
+          "midiNotes": [
+            2,
+            7,
+            0,
+            10,
+            6,
+            4,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#000000",
+          "fill": true,
+          "midiNotes": [
+            2,
+            7,
+            5,
+            10,
+            6,
+            11,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#000000",
+          "fill": true,
+          "midiNotes": [
+            2,
+            0,
+            5,
+            10,
+            6,
+            11,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#000000",
+          "fill": true,
+          "midiNotes": [
+            2,
+            7,
+            0,
+            3,
+            1,
+            4,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#000000",
+          "fill": true,
+          "midiNotes": [
+            2,
+            7,
+            5,
+            3,
+            1,
+            11,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#000000",
+          "fill": true,
+          "midiNotes": [
+            2,
+            0,
+            5,
+            3,
+            1,
+            11,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#000000",
+          "fill": true,
+          "midiNotes": [
+            2,
+            7,
+            10,
+            3,
+            1,
+            6,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#000000",
+          "fill": true,
+          "midiNotes": [
+            2,
+            0,
+            10,
+            3,
+            1,
+            6,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#000000",
+          "fill": true,
+          "midiNotes": [
+            2,
+            5,
+            10,
+            3,
+            1,
+            6,
+            11
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "displayRoot": false,
+      "rootNoteNumber": 0
+    },
+    {
+      "id": 11,
+      "displayRoot": false,
+      "rootNoteNumber": 0
+    },
+    {
+      "id": 12,
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#000000",
+          "fill": true,
+          "midiNotes": [
+            2,
+            0,
+            5,
+            1,
+            6,
+            11,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#000000",
+          "fill": true,
+          "midiNotes": [
+            2,
+            0,
+            5,
+            10,
+            3,
+            11,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#000000",
+          "fill": true,
+          "midiNotes": [
+            0,
+            5,
+            1,
+            6,
+            11,
+            4,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#000000",
+          "fill": true,
+          "midiNotes": [
+            7,
+            0,
+            5,
+            10,
+            3,
+            11,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#000000",
+          "fill": true,
+          "midiNotes": [
+            2,
+            7,
+            5,
+            1,
+            6,
+            4,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#000000",
+          "fill": true,
+          "midiNotes": [
+            2,
+            7,
+            0,
+            10,
+            3,
+            11,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#000000",
+          "fill": true,
+          "midiNotes": [
+            2,
+            7,
+            5,
+            1,
+            6,
+            11,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#000000",
+          "fill": true,
+          "midiNotes": [
+            2,
+            7,
+            5,
+            10,
+            3,
+            11,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#000000",
+          "fill": true,
+          "midiNotes": [
+            2,
+            7,
+            5,
+            1,
+            6,
+            11,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#000000",
+          "fill": true,
+          "midiNotes": [
+            2,
+            0,
+            5,
+            10,
+            3,
+            11,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#000000",
+          "fill": true,
+          "midiNotes": [
+            7,
+            5,
+            1,
+            6,
+            11,
+            4,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#000000",
+          "fill": true,
+          "midiNotes": [
+            7,
+            0,
+            5,
+            10,
+            3,
+            11,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#000000",
+          "fill": true,
+          "midiNotes": [
+            2,
+            5,
+            1,
+            6,
+            11,
+            4,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#000000",
+          "fill": true,
+          "midiNotes": [
+            2,
+            7,
+            0,
+            5,
+            10,
+            3,
+            11
+          ]
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#000000",
+          "fill": true,
+          "midiNotes": [
+            2,
+            7,
+            0,
+            1,
+            6,
+            11,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#000000",
+          "fill": true,
+          "midiNotes": [
+            2,
+            0,
+            5,
+            10,
+            3,
+            4,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#000000",
+          "fill": true,
+          "midiNotes": [
+            7,
+            0,
+            1,
+            6,
+            11,
+            4,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#000000",
+          "fill": true,
+          "midiNotes": [
+            7,
+            0,
+            5,
+            10,
+            3,
+            4,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#000000",
+          "fill": true,
+          "midiNotes": [
+            2,
+            0,
+            1,
+            6,
+            11,
+            4,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#000000",
+          "fill": true,
+          "midiNotes": [
+            2,
+            7,
+            0,
+            5,
+            10,
+            3,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#000000",
+          "fill": true,
+          "midiNotes": [
+            7,
+            0,
+            10,
+            1,
+            6,
+            11,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#000000",
+          "fill": true,
+          "midiNotes": [
+            0,
+            5,
+            10,
+            3,
+            6,
+            4,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#000000",
+          "fill": true,
+          "midiNotes": [
+            2,
+            0,
+            10,
+            1,
+            11,
+            4,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#000000",
+          "fill": true,
+          "midiNotes": [
+            2,
+            7,
+            0,
+            5,
+            3,
+            6,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#000000",
+          "fill": true,
+          "midiNotes": [
+            2,
+            0,
+            10,
+            1,
+            6,
+            4,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#000000",
+          "fill": true,
+          "midiNotes": [
+            2,
+            7,
+            0,
+            10,
+            3,
+            6,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#000000",
+          "fill": true,
+          "midiNotes": [
+            2,
+            0,
+            10,
+            1,
+            6,
+            11,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#000000",
+          "fill": true,
+          "midiNotes": [
+            2,
+            7,
+            5,
+            10,
+            3,
+            6,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#000000",
+          "fill": true,
+          "midiNotes": [
+            2,
+            0,
+            10,
+            1,
+            6,
+            11,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#000000",
+          "fill": true,
+          "midiNotes": [
+            2,
+            0,
+            5,
+            10,
+            3,
+            6,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#000000",
+          "fill": true,
+          "midiNotes": [
+            7,
+            0,
+            5,
+            1,
+            11,
+            4,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#000000",
+          "fill": true,
+          "midiNotes": [
+            7,
+            0,
+            5,
+            3,
+            11,
+            4,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#000000",
+          "fill": true,
+          "midiNotes": [
+            7,
+            0,
+            5,
+            1,
+            6,
+            4,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#000000",
+          "fill": true,
+          "midiNotes": [
+            7,
+            0,
+            10,
+            3,
+            11,
+            4,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#000000",
+          "fill": true,
+          "midiNotes": [
+            7,
+            0,
+            5,
+            1,
+            6,
+            11,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#000000",
+          "fill": true,
+          "midiNotes": [
+            0,
+            5,
+            10,
+            3,
+            11,
+            4,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#000000",
+          "fill": true,
+          "midiNotes": [
+            2,
+            0,
+            5,
+            1,
+            11,
+            4,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#000000",
+          "fill": true,
+          "midiNotes": [
+            2,
+            7,
+            0,
+            5,
+            3,
+            11,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#000000",
+          "fill": true,
+          "midiNotes": [
+            2,
+            0,
+            5,
+            1,
+            6,
+            11,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#000000",
+          "fill": true,
+          "midiNotes": [
+            2,
+            7,
+            5,
+            10,
+            3,
+            11,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#000000",
+          "fill": true,
+          "midiNotes": [
+            0,
+            10,
+            3,
+            1,
+            11,
+            4,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#000000",
+          "fill": true,
+          "midiNotes": [
+            7,
+            0,
+            5,
+            3,
+            1,
+            6,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#000000",
+          "fill": true,
+          "midiNotes": [
+            0,
+            10,
+            3,
+            1,
+            6,
+            4,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#000000",
+          "fill": true,
+          "midiNotes": [
+            7,
+            0,
+            10,
+            3,
+            1,
+            6,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#000000",
+          "fill": true,
+          "midiNotes": [
+            0,
+            10,
+            3,
+            1,
+            6,
+            11,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#000000",
+          "fill": true,
+          "midiNotes": [
+            7,
+            5,
+            10,
+            3,
+            1,
+            6,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#000000",
+          "fill": true,
+          "midiNotes": [
+            0,
+            10,
+            3,
+            8,
+            11,
+            4,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#000000",
+          "fill": true,
+          "midiNotes": [
+            7,
+            0,
+            5,
+            8,
+            1,
+            6,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#000000",
+          "fill": true,
+          "midiNotes": [
+            0,
+            10,
+            3,
+            8,
+            6,
+            4,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#000000",
+          "fill": true,
+          "midiNotes": [
+            7,
+            0,
+            10,
+            8,
+            1,
+            6,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#000000",
+          "fill": true,
+          "midiNotes": [
+            0,
+            10,
+            3,
+            8,
+            6,
+            11,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#000000",
+          "fill": true,
+          "midiNotes": [
+            7,
+            5,
+            10,
+            8,
+            1,
+            6,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#000000",
+          "fill": true,
+          "midiNotes": [
+            0,
+            5,
+            3,
+            8,
+            1,
+            4,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#000000",
+          "fill": true,
+          "midiNotes": [
+            7,
+            0,
+            3,
+            8,
+            1,
+            11,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#000000",
+          "fill": true,
+          "midiNotes": [
+            0,
+            5,
+            3,
+            8,
+            1,
+            6,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "displayRoot": false,
+      "rootNoteNumber": 0,
+      "harmonies": [
+        {
+          "id": 0,
+          "color": "#000000",
+          "fill": true,
+          "midiNotes": [
+            7,
+            10,
+            3,
+            8,
+            1,
+            11,
+            4
+          ]
+        }
+      ]
+    }
+  ]
+}

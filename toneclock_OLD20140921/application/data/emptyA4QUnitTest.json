@@ -1,0 +1,18 @@
+{
+  "toneclocksheet": {
+    "id": 0,
+    "name": "Empty Sheet A4 4x5 clocks",
+    "clockcanvassize": 350,
+    "clocksize": 200,
+    "hoursize": 10,
+    "clockshorizontal": 3,
+    "clocksvertical": 2,
+    "notenamestyle": 0,
+    "notenamedirection": true,
+    "notenameaccidentals": true,
+    "notenamemargin": 10,
+    "notenamefontsize": 16,
+    "notenamefontname": "Arial",
+    "notenamerotation": -1
+  }
+}

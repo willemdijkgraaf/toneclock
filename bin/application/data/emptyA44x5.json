@@ -1,0 +1,22 @@
+{
+    "id": 0,
+    "name": "New Sheet (A4, 4x5 clocks)",
+    "clockcanvassize": 240,
+    "clocksize": 160,
+    "hoursize": 20,
+    "clockshorizontal": 4,
+    "clocksvertical": 5,
+    "noteNameInterval": 0,
+    "noteNameAs": 0,
+    "noteNameDirection": true,
+    "noteNameAccidentals": true,
+    "noteNameMargin": 10,
+    "noteNameFontSize": 11,
+    "noteNameFontName": "Arial",
+    "noteNameRotation": -1,
+    "sheetTransposition": 0,
+    "displaySetNamePrimeForm": false,
+    "displaySetNameForteCode": false,
+    "displaySetNameIntervalVector": false,
+    "displaySetNamePrimeInversion": false
+}
